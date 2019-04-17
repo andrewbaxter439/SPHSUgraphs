@@ -11,7 +11,7 @@ sphsu_cols(..., subset = "all", names = TRUE)
 
 \item{subset}{Character. "all", "main" or "more" can be called (this only needs used in place of colour names above).}
 
-\item{names}{Logical. If passing directly to \link[ggplot2]{scale_colour_manual} or \link[ggplot2]{scale_fill_manual} then set this as \code{TRUE} to remove names and allow assignment to plotted variables.}
+\item{names}{Logical. If passing directly to \link[ggplot2]{scale_manual} then set this as \code{TRUE} to remove names and allow assignment to plotted variables.}
 }
 \description{
 This function allows you to select a colour or a vector of colours by name, or to specify a 'main' or 'more' subset.

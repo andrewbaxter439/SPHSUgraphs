@@ -8,6 +8,14 @@
 \description{
 Generate graph aesthetics for ggplot2
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/andrewbaxter439/SPHSUgraphs}
+  \item Report bugs at \url{https://github.com/andrewbaxter439/SPHSUgraphs/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Andy Baxter \email{a.baxter.1@reserach.gla.ac.uk}
 

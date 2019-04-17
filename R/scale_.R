@@ -2,7 +2,7 @@
 #'
 #' Unit colours for \link[ggplot2]{ggplot2} graphs
 #'
-#' These functions call colour palettes based on Unit colourschemes
+#' These functions call colour palettes based on Unit colour schemes
 #'
 #' @param palette Character. Calls a palette from \link{sphsu_cols}. Current schemes are "main", "cool", "hot" and "mixed".
 #' @param discrete Logical. Toggle to represent discrete or continuous data.
@@ -46,7 +46,9 @@ function (palette = "mixed", discrete = TRUE, reverse = FALSE, ...){
     scale_color_gradientn(colours = pal(256), ...)
   }
 }
-#' @rdname scale_colour_sphsu
+#' SPHSU fill scales
+#'
+#' @inherit scale_colour_sphsu
 #' @export
 scale_fill_sphsu <-
 function(palette = "mixed", discrete = TRUE, reverse = FALSE, ...){
