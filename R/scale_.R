@@ -7,7 +7,7 @@
 #' @param palette Character. Calls a palette from \link{sphsu_cols}. Current schemes are "main", "cool", "hot" and "mixed".
 #' @param discrete Logical. Toggle to represent discrete or continuous data.
 #' @param reverse Logical. Reverse order of colours at assignment.
-#' @param ... other arguments passed on to \link[ggplot2]{discrete_scale} (for discrete data) or \link[ggplot2]{scale_fill_gradientn} (for continuous).
+#' @param ... other arguments passed on to \link[ggplot2]{discrete_scale} (for discrete data) or \link[ggplot2]{scale_colour_gradient} (for continuous).
 #'
 #' @author Andy Baxter
 #'

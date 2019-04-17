@@ -6,7 +6,7 @@
 #'
 #' @param ... Character. Colour names separated by commas. Left blank this will return all colours in subset.
 #' @param subset Character. "all", "main" or "more" can be called (this only needs used in place of colour names above).
-#' @param names Logical. If passing directly to \link[ggplot2]{scale_colour_manual} or \link[ggplot2]{scale_fill_manual} then set this as \code{TRUE} to remove names and allow assignment to plotted variables.
+#' @param names Logical. If passing directly to \link[ggplot2]{scale_manual} then set this as \code{TRUE} to remove names and allow assignment to plotted variables.
 #'
 #' @author Andy Baxter a.baxter.1@research.gla.ac.uk
 #'
