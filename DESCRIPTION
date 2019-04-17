@@ -7,7 +7,7 @@ Maintainer: Andy Baxter <a.baxter.1@research.gla.ac.uk>
 Description: Make your graphs look clean and official by adding Unit colours to discrete or continuous data.
     Several functions make this possible as additions to graph objects, or for generating vectors of hex codes as called by name.
 License: None
-Depends: ggplot2
+Depends: R (>= 2.10), ggplot2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1

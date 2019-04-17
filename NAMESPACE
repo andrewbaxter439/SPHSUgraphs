@@ -3,5 +3,4 @@
 export(scale_colour_sphsu)
 export(sphsu_cols)
 export(sphsu_show_colours)
-import(dplyr)
 import(ggplot2)

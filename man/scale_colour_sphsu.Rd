@@ -18,7 +18,7 @@ scale_fill_sphsu(palette = "mixed", discrete = TRUE, reverse = FALSE,
 
 \item{reverse}{Logical. Reverse order of colours at assignment.}
 
-\item{...}{other arguments passed on to \link[ggplot2]{discrete_scale} (for discrete data) or \link[ggplot2]{scale_gradientn} (for continuous).}
+\item{...}{other arguments passed on to \link[ggplot2]{discrete_scale} (for discrete data) or \link[ggplot2]{scale_fill_gradientn} (for continuous).}
 }
 \description{
 Unit colours for \link[ggplot2]{ggplot2} graphs
