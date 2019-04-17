@@ -2,12 +2,15 @@ Package: SPHSUgraphs
 Type: Package
 Title: Select SPHSU Brand Colours For ggplot2 Graphs
 Version: 0.1.0
-Author@R: person("Andy", "Baxter", email = "a.baxter.1@reserach.gla.ac.uk", role = c("aut", "cre"))
+Authors@R: person("Andy", "Baxter", email = "a.baxter.1@reserach.gla.ac.uk", role = c("aut", "cre"))
 Maintainer: Andy Baxter <a.baxter.1@research.gla.ac.uk>
 Description: Make your graphs look clean and official by adding Unit colours to discrete or continuous data.
     Several functions make this possible as additions to graph objects, or for generating vectors of hex codes as called by name.
+URL: https://github.com/andrewbaxter439/SPHSUgraphs
+BugReports: https://github.com/andrewbaxter439/SPHSUgraphs/issues
 License: None
-Depends: R (>= 2.10), ggplot2
+Depends: R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
+Imports: ggplot2
 RoxygenNote: 6.1.1

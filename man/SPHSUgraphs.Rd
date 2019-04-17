@@ -8,3 +8,7 @@
 \description{
 Generate graph aesthetics for ggplot2
 }
+\author{
+\strong{Maintainer}: Andy Baxter \email{a.baxter.1@reserach.gla.ac.uk}
+
+}
