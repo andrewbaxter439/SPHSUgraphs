@@ -9,7 +9,7 @@
 #' theme_sphsu_light() +
 #' facet_wrap(~Species)
 #'
-#'
+#' @export
 
 theme_sphsu_light <-
 function() {
