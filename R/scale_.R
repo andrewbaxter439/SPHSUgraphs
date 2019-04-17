@@ -19,15 +19,15 @@
 #'
 #' ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Species)) +
 #'   geom_point(size = 4) +
-#'   scale_color_sphsu()
+#'   scale_colour_sphsu()
 #'
 #' ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
 #'   geom_point(size = 4) +
-#'   scale_color_sphsu("hot", discrete = FALSE)
+#'   scale_colour_sphsu("hot", discrete = FALSE)
 #'
 #' ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
 #'   geom_point(size = 4) +
-#'   scale_color_sphsu("cool", discrete = FALSE)
+#'   scale_colour_sphsu("cool", discrete = FALSE)
 #'
 #' ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
 #'   geom_bar() +
@@ -47,6 +47,7 @@ function (palette = "mixed", discrete = TRUE, reverse = FALSE, ...){
   }
 }
 #' @rdname scale_colour_sphsu
+#' @export
 scale_fill_sphsu <-
 function(palette = "mixed", discrete = TRUE, reverse = FALSE, ...){
   pal <- sphsu_pal(palette = palette, reverse = reverse)
