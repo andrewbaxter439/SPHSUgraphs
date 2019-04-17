@@ -20,7 +20,7 @@ scale_fill_sphsu(palette = "mixed", discrete = TRUE, reverse = FALSE,
 Unit colours for \link[ggplot2]{ggplot2} graphs
 }
 \details{
-These functions call colour palettes based on Unit colourschemes
+These functions call colour palettes based on Unit colour schemes
 }
 \examples{
 
