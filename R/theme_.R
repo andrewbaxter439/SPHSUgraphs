@@ -13,6 +13,7 @@
 
 theme_sphsu_light <-
 function() {
+  windowsFonts("Arial" =  windowsFont("Arial"))
   theme_light(base_size = 12, base_family = "Arial") %+replace%
   theme(
     panel.border     = element_rect(fill = NA, colour = NA),
