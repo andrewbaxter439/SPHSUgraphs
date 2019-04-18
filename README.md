@@ -9,13 +9,13 @@ Use `show_sphsu_colours` to show the range of named colours you can use:
 
 ## Adding a palette
 
-You
+Colour and fill functions have four pre-installed palettes: "main", "hot", "cool" and "mixed". You can add a custom palette like so:
 
 ```
 sphsu_palettes["new name"] <- sphsu_cols("Cobalt", "Thistle", "Leaf")
 ```
 
-You can then use this new palette in calls of `scale_fill_sphsu` and `scale_colour_sphsu` (see below).
+You can then use this new palette name in calls of `scale_fill_sphsu` and `scale_colour_sphsu` (see below).
 
 ## Using in ggplot
 
