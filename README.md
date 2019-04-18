@@ -1,5 +1,21 @@
-# SPHSU_graphics
+# SPHSU graphics for graphs
 For applying Unit colour scales and other theme aesthetics to ggplot2 plots
+
+## The Unit Palette
+
+Use `show_sphsu_colours` to show the range of named colours you can use:
+
+![SPHSU colour scheme](sphsu_palette.png)
+
+## Adding a palette
+
+You
+
+```
+sphsu_palettes["new name"] <- sphsu_cols("Cobalt", "Thistle", "Leaf")
+```
+
+You can then use this new palette in calls of `scale_fill_sphsu` and `scale_colour_sphsu` (see below).
 
 ## Using in ggplot
 
