@@ -51,10 +51,10 @@ function(..., subset = "all", names = TRUE) {
         return(main_cols)
       } else if (subset == "more") {
         return(more_cols)
-      } else if (subset == "planets"){
+      } else if (subset == "planet"){
         return(planet_cols)
       } else {
-        stop("Please specify whether 'main', 'more' or 'all' colours are required",
+        stop("Please specify whether 'main', 'more', 'planet' or 'all' colours are required",
              call. = FALSE)
       }
     } else {
