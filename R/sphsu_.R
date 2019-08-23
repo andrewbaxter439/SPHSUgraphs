@@ -33,8 +33,7 @@ function(..., subset = "all", names = TRUE) {
                  Moss = "#385A4F",
                  Rust = "#BE4D00",
                  Pumpkin = "#FFB948",
-                 Sunshine = "#FFDC36"
-  )
+                 Sunshine = "#FFDC36")
   planet_cols <- c(Policy = "#5B4E94",
                    Neighbourhoods = "#82BB26",
                    Settings = "#0079B3",
@@ -42,11 +41,12 @@ function(..., subset = "all", names = TRUE) {
                    Complexity = "#951D73",
                    Inequalities = "#1F687E")
   all_cols <- c(main_cols, more_cols, planet_cols)
+  standard_cols <- c(main_cols, more_cols)
   cols <- c(...)
   if (is.null(cols)) {
     if (names) {
       if (subset == "all") {
-        return(all_cols)
+        return(standard_cols)
       } else if (subset == "main") {
         return(main_cols)
       } else if (subset == "more") {
