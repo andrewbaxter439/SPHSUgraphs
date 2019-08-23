@@ -33,20 +33,28 @@ function(..., subset = "all", names = TRUE) {
                  Moss = "#385A4F",
                  Rust = "#BE4D00",
                  Pumpkin = "#FFB948",
-                 Sunshine = "#FFDC36"
-  )
-  all_cols <- c(main_cols, more_cols)
+                 Sunshine = "#FFDC36")
+  planet_cols <- c(Policy = "#5B4E94",
+                   Neighbourhoods = "#82BB26",
+                   Settings = "#0079B3",
+                   Relationships = "#163961",
+                   Complexity = "#951D73",
+                   Inequalities = "#1F687E")
+  all_cols <- c(main_cols, more_cols, planet_cols)
+  standard_cols <- c(main_cols, more_cols)
   cols <- c(...)
   if (is.null(cols)) {
     if (names) {
       if (subset == "all") {
-        return(all_cols)
+        return(standard_cols)
       } else if (subset == "main") {
         return(main_cols)
       } else if (subset == "more") {
         return(more_cols)
+      } else if (subset == "planet"){
+        return(planet_cols)
       } else {
-        stop("Please specify whether 'main', 'more' or 'all' colours are required",
+        stop("Please specify whether 'main', 'more', 'planet' or 'all' colours are required",
              call. = FALSE)
       }
     } else {
@@ -59,8 +67,11 @@ function(..., subset = "all", names = TRUE) {
       } else if (subset == "more") {
         names(more_cols) <- NULL
         return(more_cols)
+      } else if (subset == "planets"){
+        names(planet_cols) <- NULL
+        return(planet_cols)
       } else {
-        stop("Please specify whether 'main', 'more' or 'all' colours are required",
+        stop("Please specify whether 'main', 'more', 'planet' or 'all' colours are required",
              call. = FALSE)
       }
 
