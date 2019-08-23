@@ -23,3 +23,17 @@ function() {
                               margin = margin(0.8 * 6, 0.8 * 6, 0.8 * 6, 0.8 * 6))
         )
 }
+
+theme_sphsu_minimal <-
+  function() {
+  windowsFonts("Arial" =  windowsFont("Arial"))
+  theme_light(base_size = 12, base_family = "Arial") %+replace%
+  theme(
+    panel.border     = element_rect(fill = NA, colour = NA),
+    axis.line        = element_blank(),
+    strip.background = element_rect(fill = "grey90", colour = NA),
+    strip.text = element_text(colour = "grey20",size = rel(0.8),
+                              margin = margin(0.8 * 6, 0.8 * 6, 0.8 * 6, 0.8 * 6))
+        )
+
+  }
