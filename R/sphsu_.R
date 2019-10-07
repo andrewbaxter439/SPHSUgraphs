@@ -17,7 +17,7 @@
 #' @examples
 #' sphsu_cols()
 #' sphsu_cols("University Blue", "Leaf", "Moss")
-#' spush_cols(subset = "main")
+#' sphsu_cols(subset = "main")
 
 sphsu_cols <-
 function(..., subset = "all", names = TRUE) {

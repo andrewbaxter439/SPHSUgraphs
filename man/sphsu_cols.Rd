@@ -22,7 +22,7 @@ The names of the standard Social and Public Health Sciences Unit colours can be 
 \examples{
 sphsu_cols()
 sphsu_cols("University Blue", "Leaf", "Moss")
-spush_cols(subset = "main")
+sphsu_cols(subset = "main")
 }
 \author{
 Andy Baxter a.baxter.1@research.gla.ac.uk
