@@ -8,6 +8,7 @@
 
 sphsu_show_colours <-
 function() {
+  Colour <- hjust <- vals <- NULL
 df <- data.frame(Colour = factor(sphsu_cols(), levels = sphsu_cols()),
        names = names(sphsu_cols()),
        vals = 1,
