@@ -5,7 +5,7 @@ For applying Unit colour scales and other theme aesthetics to ggplot2 plots
 
 Use `sphsu_show_colours()` to show the range of named colours you can use:
 
-![SPHSU colour scheme](sphsu_palette.png)
+![SPHSU colour scheme](graphs/sphsu_palette.png)
 
 ## Adding a palette
 
@@ -29,7 +29,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Species)) +
   scale_color_sphsu()
 ```
 
-!['mixed' colour scale, discrete](graph1.png)
+!['mixed' colour scale, discrete](graphs/graph1.png)
 
 ```
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
@@ -37,7 +37,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
   scale_color_sphsu("hot", discrete = FALSE)
 ```
 
-!['hot' colour scale, continuous](graph2.png)
+!['hot' colour scale, continuous](graphs/graph2.png)
 
 ```
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
@@ -45,7 +45,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
   scale_color_sphsu("cool", discrete = FALSE)
 ```
 
-!['cool' colour scale, continuous](graph3.png)
+!['cool' colour scale, continuous](graphs/graph3.png)
 
 ```
 ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
@@ -54,4 +54,4 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   scale_fill_sphsu(palette = "mixed", guide = "none")
 ```
 
-!['mixed' colour scale, discrete](graph4.png)
+!['mixed' colour scale, discrete](graphs/graph4.png)

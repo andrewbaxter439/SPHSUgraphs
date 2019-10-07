@@ -13,7 +13,7 @@ df <- data.frame(Colour = factor(sphsu_cols(), levels = sphsu_cols()),
        vals = 1,
        hjust = c(rep(0.5,12), 0.3))
 
-  ggplot(df, aes(x = 1, y= vals, fill = Colour, label = names))+
+  ggplot(df, aes(x = 1, y= vals, fill = Colour, label = names)) +
   geom_bar(stat = "identity", position = "fill") +
   coord_polar(theta = "y") +
   theme(text = element_blank(),
