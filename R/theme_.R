@@ -13,8 +13,8 @@
 
 theme_sphsu_light <-
 function() {
-  windowsFonts("Arial" =  windowsFont("Arial"))
-  theme_light(base_size = 12, base_family = "Arial") %+replace%
+  # windowsFonts("Arial" =  windowsFont("Arial"))
+  theme_light(base_size = 12, base_family = "sans") %+replace%
   theme(
     panel.border     = element_rect(fill = NA, colour = NA),
     axis.line        = element_line(colour = "grey70", size = rel(1)),
@@ -26,8 +26,8 @@ function() {
 
 theme_sphsu_minimal <-
   function() {
-  windowsFonts("Arial" =  windowsFont("Arial"))
-  theme_light(base_size = 12, base_family = "Arial") %+replace%
+  # windowsFonts("Arial" =  windowsFont("Arial"))
+  theme_light(base_size = 12, base_family = "sans") %+replace%
   theme(
     panel.border     = element_rect(fill = NA, colour = NA),
     axis.line        = element_blank(),
