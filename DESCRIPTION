@@ -8,7 +8,7 @@ Description: Make your graphs look clean and official by adding Unit colours to 
     Several functions make this possible as additions to graph objects, or for generating vectors of hex codes as called by name.
 URL: https://github.com/andrewbaxter439/SPHSUgraphs
 BugReports: https://github.com/andrewbaxter439/SPHSUgraphs/issues
-License: None
+License: GPL-3
 Depends: R (>= 2.10), ggplot2
 Encoding: UTF-8
 LazyData: true

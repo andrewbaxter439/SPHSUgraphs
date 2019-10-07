@@ -96,6 +96,12 @@ function(..., subset = "all", names = TRUE) {
 }
 
 #' SPHSU palettes (for passing to other functions)
+#'
+#' @param palette Name of pallete to use. `"main"`, `"mixed"`, `"planet"` or `"all"`
+#' @param reverse Reverse order. defaults to `FALSE`
+#' @param ... Additional arguments passed to colorRampPalette
+#'
+#' @importFrom grDevices colorRampPalette
 
 sphsu_pal <-
 function(palette = "mixed", reverse = FALSE, ...){

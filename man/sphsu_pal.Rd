@@ -6,6 +6,13 @@
 \usage{
 sphsu_pal(palette = "mixed", reverse = FALSE, ...)
 }
+\arguments{
+\item{palette}{Name of pallete to use. `"main"`, `"mixed"`, `"planet"` or `"all"`}
+
+\item{reverse}{Reverse order. defaults to `FALSE`}
+
+\item{...}{Additional arguments passed to colorRampPalette}
+}
 \description{
 SPHSU palettes (for passing to other functions)
 }
