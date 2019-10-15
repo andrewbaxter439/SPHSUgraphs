@@ -1,4 +1,8 @@
+<!-- badges: start -->
 [![Build Status](https://travis-ci.com/andrewbaxter439/SPHSUgraphs.svg?branch=master)](https://travis-ci.com/andrewbaxter439/SPHSUgraphs)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/andrewbaxter439/SPHSUgraphs?branch=master&svg=true)](https://ci.appveyor.com/project/andrewbaxter439/SPHSUgraphs)
+<!-- badges: end -->
+
 
 # SPHSU graphics for graphs
 For applying Unit colour scales and other theme aesthetics to ggplot2 plots
