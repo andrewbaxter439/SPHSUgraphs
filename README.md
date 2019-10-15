@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/andrewbaxter439/SPHSUgraphs.svg?branch=master)](https://travis-ci.com/andrewbaxter439/SPHSUgraphs)
+
 # SPHSU graphics for graphs
 For applying Unit colour scales and other theme aesthetics to ggplot2 plots
 
