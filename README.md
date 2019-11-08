@@ -61,3 +61,7 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
 ```
 
 !['mixed' colour scale, discrete](graphs/graph4.png)
+
+# Acknowledgements
+
+This package was developed from the helpful walkthrough at [Simon Jackson's blogpost](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2) on creating colour palettes (Accessed 08/11/2019). With thanks to [@drsimonj](https://www.twitter.com/drsimonj)! 
