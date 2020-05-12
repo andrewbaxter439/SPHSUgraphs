@@ -4,8 +4,7 @@
 \alias{scale_fill_sphsu}
 \title{SPHSU fill scales}
 \usage{
-scale_fill_sphsu(palette = "mixed", discrete = TRUE, reverse = FALSE,
-  ...)
+scale_fill_sphsu(palette = "mixed", discrete = TRUE, reverse = FALSE, ...)
 }
 \arguments{
 \item{palette}{Character. Calls a palette from \link{sphsu_cols}. Current schemes are "main", "cool", "hot" and "mixed".}
@@ -42,4 +41,7 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   scale_fill_sphsu(palette = "mixed", guide = "none")
 
 
+}
+\author{
+Andy Baxter
 }

@@ -22,6 +22,6 @@ df <- data.frame(Colour = factor(sphsu_cols(), levels = sphsu_cols()),
         line = element_blank(),
         legend.position = "none") +
   scale_fill_identity(aesthetics = c("fill","colour")) +
-  geom_text(aes(x=1.7, col=Colour, hjust = hjust),
+  geom_text(aes(x=1.7, col=Colour, hjust = hjust ,y = 1/13),
             position=position_fill(vjust=0.5), fontface = "bold", family = "sans")
 }

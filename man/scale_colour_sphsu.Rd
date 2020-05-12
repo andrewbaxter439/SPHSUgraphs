@@ -4,8 +4,7 @@
 \alias{scale_colour_sphsu}
 \title{SPHSU colour scales}
 \usage{
-scale_colour_sphsu(palette = "mixed", discrete = TRUE,
-  reverse = FALSE, ...)
+scale_colour_sphsu(palette = "mixed", discrete = TRUE, reverse = FALSE, ...)
 }
 \arguments{
 \item{palette}{Character. Calls a palette from \link{sphsu_cols}. Current schemes are "main", "cool", "hot" and "mixed".}

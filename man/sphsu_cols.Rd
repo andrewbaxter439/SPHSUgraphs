@@ -13,6 +13,9 @@ sphsu_cols(..., subset = "all", names = TRUE)
 
 \item{names}{Logical. If passing directly to \link[ggplot2]{scale_manual} then set this as \code{TRUE} to remove names and allow assignment to plotted variables.}
 }
+\value{
+A named vector containing the hex codes of all requested colours.
+}
 \description{
 This function allows you to select a colour or a vector of colours by name, or to specify a 'main' or 'more' subset.
 }
