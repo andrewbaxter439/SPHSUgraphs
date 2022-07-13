@@ -40,7 +40,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Species)) +
 ```
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
   geom_point(size = 4) +
-  scale_color_sphsu("hot", discrete = FALSE)
+  scale_colour_sphsu("hot", discrete = FALSE)
 ```
 
 !['hot' colour scale, continuous](graphs/graph2.png)
@@ -48,7 +48,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
 ```
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
   geom_point(size = 4) +
-  scale_color_sphsu("cool", discrete = FALSE)
+  scale_colour_sphsu("cool", discrete = FALSE)
 ```
 
 !['cool' colour scale, continuous](graphs/graph3.png)
