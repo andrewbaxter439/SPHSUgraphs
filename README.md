@@ -35,7 +35,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Species)) +
   scale_colour_sphsu()
 ```
 
-!['mixed' colour scale, discrete](graphs/graph1.png)
+!['mixed' colour scale, discrete](graphs/graph5.png)
 
 ```
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
