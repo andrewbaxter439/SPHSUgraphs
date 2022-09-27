@@ -32,7 +32,7 @@ Examples:
 ```
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Species)) +
   geom_point(size = 4) +
-  scale_color_sphsu()
+  scale_colour_sphsu()
 ```
 
 !['mixed' colour scale, discrete](graphs/graph1.png)
