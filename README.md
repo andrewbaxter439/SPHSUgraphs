@@ -1,7 +1,6 @@
 <!-- badges: start -->
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/andrewbaxter439/SPHSUgraphs?branch=master&svg=true)](https://ci.appveyor.com/project/andrewbaxter439/SPHSUgraphs)
 [![R CMD Check](https://github.com/andrewbaxter439/SPHSUgraphs/workflows/R-CMD-check/badge.svg)](https://github.com/andrewbaxter439/SPHSUgraphs/actions)
-[![R build status](https://github.com/andrewbaxter439/SPHSUgraphs/actions/workflows/r.yml/badge.svg)](https://github.com/andrewbaxter439/SPHSUgraphs/actions)
 <!-- badges: end -->
 
 
