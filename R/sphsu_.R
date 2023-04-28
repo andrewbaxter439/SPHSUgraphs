@@ -8,7 +8,7 @@
 #' @param subset Character. "all", "main" or "more" can be called (this only needs used in place of colour names above).
 #' @param names Logical. If passing directly to \link[ggplot2]{scale_manual} then set this as \code{TRUE} to remove names and allow assignment to plotted variables.
 #'
-#' @author Andy Baxter a.baxter.1@research.gla.ac.uk
+#' @author Andy Baxter andy@andybaxter.me
 #'
 #' @returns A named vector containing the hex codes of all requested colours.
 #'
@@ -105,7 +105,7 @@ function(..., subset = "all", names = TRUE) {
 
 sphsu_pal <-
 function(palette = "mixed", reverse = FALSE, ...){
-  pal <- sphsu_palettes[[palette]]
+  pal <- SPHSUgraphs::sphsu_palettes[[palette]]
 
   if (reverse) pal <- rev(pal)
 
