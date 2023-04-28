@@ -9,7 +9,7 @@ Description: Make your graphs look clean and official by adding Unit colours to 
 URL: https://github.com/andrewbaxter439/SPHSUgraphs
 BugReports: https://github.com/andrewbaxter439/SPHSUgraphs/issues
 License: GPL-3 + file LICENSE
-Depends: R (>= 3.6.3), ggplot2
+Depends: R (>= 3.4.0), ggplot2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.0
