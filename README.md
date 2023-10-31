@@ -1,67 +1,99 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# SPHSUgraphs
+
 <!-- badges: start -->
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/andrewbaxter439/SPHSUgraphs?branch=master&svg=true)](https://ci.appveyor.com/project/andrewbaxter439/SPHSUgraphs)
-[![R CMD Check](https://github.com/andrewbaxter439/SPHSUgraphs/workflows/R-CMD-check/badge.svg)](https://github.com/andrewbaxter439/SPHSUgraphs/actions)
+
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/andrewbaxter439/SPHSUgraphs?branch=master&svg=true)](https://ci.appveyor.com/project/andrewbaxter439/SPHSUgraphs)
+[![R CMD
+Check](https://github.com/andrewbaxter439/SPHSUgraphs/workflows/R-CMD-check/badge.svg)](https://github.com/andrewbaxter439/SPHSUgraphs/actions)
 <!-- badges: end -->
 
+For applying Unit colour scales and other theme aesthetics to ggplot2
+plots
 
-# SPHSU graphics for graphs
-For applying Unit colour scales and other theme aesthetics to ggplot2 plots
+## Installation
+
+You can install the development version of SPHSUgraphs from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("andrewbaxter439/SPHSUgraphs")
+```
 
 ## The Unit Palette
 
-Use `sphsu_show_colours()` to show the range of named colours you can use:
+Use `sphsu_show_colours()` to show the range of named colours you can
+use:
 
-![SPHSU colour scheme](graphs/sphsu_palette.png)
+``` r
+library(SPHSUgraphs)
+#> Loading required package: ggplot2
+sphsu_show_colours()
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
 ## Adding a palette
 
-Colour and fill functions have four pre-installed palettes: "main", "hot", "cool" and "mixed". You can add a custom palette like so:
+Colour and fill functions have four pre-installed palettes: "main",
+"hot", "cool" and "mixed". You can add a custom palette like so:
 
-```
+``` r
 sphsu_palettes$newname <- sphsu_cols("Cobalt", "Thistle", "Leaf")
 ```
 
-You can then use this new palette name in calls of `scale_fill_sphsu` and `scale_colour_sphsu` (see below).
+You can then use this new palette name in calls of `scale_fill_sphsu`
+and `scale_colour_sphsu` (see below).
 
 ## Using in ggplot
 
-Right now the main output of these functions is to apply colour and fill scales to your `ggplot2` graphics, by adding a `scale_` function at the end of your call.
+Right now the main output of these functions is to apply colour and fill
+scales to your `ggplot2` graphics, by adding a `scale_` function at the
+end of your call.
 
 Examples:
 
-```
+``` r
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Species)) +
   geom_point(size = 4) +
   scale_colour_sphsu()
 ```
 
-!['mixed' colour scale, discrete](graphs/graph5.png)
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
 
-```
+``` r
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
   geom_point(size = 4) +
   scale_colour_sphsu("hot", discrete = FALSE)
 ```
 
-!['hot' colour scale, continuous](graphs/graph2.png)
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
-```
+``` r
 ggplot(iris, aes(Sepal.Width, Sepal.Length, col = Sepal.Length)) +
   geom_point(size = 4) +
   scale_colour_sphsu("cool", discrete = FALSE)
 ```
 
-!['cool' colour scale, continuous](graphs/graph3.png)
+<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
 
-```
+``` r
 ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   geom_bar() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_fill_sphsu(palette = "mixed", guide = "none")
 ```
 
-!['mixed' colour scale, discrete](graphs/graph4.png)
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
 
 # Acknowledgements
 
-This package was developed from the helpful walkthrough at [Simon Jackson's blogpost](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2) on creating colour palettes (Accessed 08/11/2019). With thanks to [@drsimonj](https://www.twitter.com/drsimonj)! 
+This package was developed from the helpful walkthrough at [Simon
+Jackson's
+blogpost](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2)
+on creating colour palettes (Accessed 08/11/2019). With thanks to
+[@drsimonj](https://www.twitter.com/drsimonj)!

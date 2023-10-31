@@ -3,3 +3,4 @@
 graphs
 ^appveyor\.yml$
 ^\.github$
+^README\.Rmd$
