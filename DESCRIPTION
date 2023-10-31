@@ -1,7 +1,7 @@
 Package: SPHSUgraphs
 Type: Package
 Title: Select SPHSU Brand Colours For ggplot2 Graphs
-Version: 1.0.0
+Version: 1.0.0.9000
 Authors@R: person("Andy", "Baxter", email = "andy@andybaxter.me", role = c("aut", "cre"))
 Maintainer: Andy Baxter <andy@andybaxter.me>
 Description: Make your graphs look clean and official by adding Unit colours to discrete or continuous data.
